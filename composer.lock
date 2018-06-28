@@ -1,0 +1,147 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "a00d0829b75cd2e03e0ae4655568fd62",
+    "content-hash": "fb18963b516590c7827da2788301a2bb",
+    "packages": [
+        {
+            "name": "ashokgit/zipfdistributiongenerator",
+            "version": "0.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ashokgit/ZipfDistributionGenerator.git",
+                "reference": "eabdc0179e0090e18268dc6f5eb73baa0b280719"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ashokgit/ZipfDistributionGenerator/zipball/eabdc0179e0090e18268dc6f5eb73baa0b280719",
+                "reference": "eabdc0179e0090e18268dc6f5eb73baa0b280719",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.6.0 || ^7.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "ashokgit\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Ashok Poudel",
+                    "email": "ashok.poudel@gmail.com"
+                }
+            ],
+            "description": "A PHP Library for Generating Zipf Distribution",
+            "keywords": [
+                "PHP Zipf Distribution Generator",
+                "Zipf Distribution"
+            ],
+            "time": "2018-04-30 17:48:29"
+        },
+        {
+            "name": "fzaninotto/faker",
+            "version": "v1.7.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/fzaninotto/Faker.git",
+                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
+                "reference": "d3ed4cc37051c1ca52d22d76b437d14809fc7e0d",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.3.3 || ^7.0"
+            },
+            "require-dev": {
+                "ext-intl": "*",
+                "phpunit/phpunit": "^4.0 || ^5.0",
+                "squizlabs/php_codesniffer": "^1.5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.8-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Faker\\": "src/Faker/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "François Zaninotto"
+                }
+            ],
+            "description": "Faker is a PHP library that generates fake data for you.",
+            "keywords": [
+                "data",
+                "faker",
+                "fixtures"
+            ],
+            "time": "2017-08-15 16:48:10"
+        },
+        {
+            "name": "gburtini/distributions",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/gburtini/Probability-Distributions-for-PHP.git",
+                "reference": "8eb3a355ac2bc5b608e7e25dd0812c1d4586b3b9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/gburtini/Probability-Distributions-for-PHP/zipball/8eb3a355ac2bc5b608e7e25dd0812c1d4586b3b9",
+                "reference": "8eb3a355ac2bc5b608e7e25dd0812c1d4586b3b9",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "gburtini\\Distributions": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Giuseppe Burtini",
+                    "email": "giuseppe@burtini.ca"
+                }
+            ],
+            "description": "PHP implementation of a number of statistical probability distributions: normal, beta, gamma, etc.",
+            "time": "2018-04-08 06:24:01"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "gburtini/distributions": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}

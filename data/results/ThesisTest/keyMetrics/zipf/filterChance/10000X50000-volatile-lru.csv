@@ -1,0 +1,2 @@
+ProcessedItems,instantaneous_ops_per_sec,keyspace_hits,keyspace_misses,hitRate,used_memory,evicted_keys,MemoryFragmentationRatio,keyspace,totalExecutionTime,cutOff
+2109942,4525,1136496,973291,0.5386780750853,1049576,969091,4.9327957194143,4200,377.01736712456,0.00083427429199219

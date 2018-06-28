@@ -1,0 +1,7 @@
+{
+	"require": {
+		"ashokgit/zipfdistributiongenerator": "^0.0.3",
+		"fzaninotto/faker": "^1.7",
+		"gburtini/distributions": "dev-master"
+	}
+}
